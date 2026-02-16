@@ -30,6 +30,11 @@ circle_img = img.copy()
 cv2.circle(circle_img, (400, 250), 100, (0, 0, 255), 5)
 cv2.imwrite(os.path.join(base_path, "output_circle.jpg"), circle_img)
 
+# ✅ Filled Circle
+filled_circle_img = img.copy()
+cv2.circle(filled_circle_img, (400, 250), 100, (255, 0, 0), -1)
+cv2.imwrite(os.path.join(base_path, "output_filled_circle.jpg"), filled_circle_img)
+
 # Ellipse
 ellipse_img = img.copy()
 cv2.ellipse(ellipse_img, (400, 250), (200, 100), 0, 0, 360, (255, 255, 0), 5)
