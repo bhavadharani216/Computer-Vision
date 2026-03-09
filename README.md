@@ -1,1 +1,1 @@
-Basic to advanced computer vision problem statement.
+Basic to advanced computer vision problems
