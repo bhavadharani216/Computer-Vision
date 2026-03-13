@@ -1,7 +1,7 @@
 import cv2
 import numpy as np
 
-# Read image
+
 img = cv2.imread("7.Camera Calibration/grid.jpg")
 
 if img is None:
