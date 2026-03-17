@@ -44,6 +44,7 @@ depth_map = np.uint8(depth_map)
 depth_colored = cv2.applyColorMap(depth_map, cv2.COLORMAP_JET)
 
 # Save outputs
+
 cv2.imwrite(r"E:\PROJECTS\Computer-Vision\9.3D Reconstruction\depth_map_gray.png", depth_map)
 cv2.imwrite(r"E:\PROJECTS\Computer-Vision\9.3D Reconstruction\depth_map_color.png", depth_colored)
 
