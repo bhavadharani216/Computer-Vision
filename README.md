@@ -1,1 +1,1 @@
-Basic to advanced computer vision problems
+Basic to advanced computer vision problems.
